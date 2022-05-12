@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://month-four.github.io</id>
     <title>Enjoy Life</title>
-    <updated>2022-05-12T07:52:33.860Z</updated>
+    <updated>2022-05-12T08:03:10.099Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://month-four.github.io"/>
     <link rel="self" href="https://month-four.github.io/atom.xml"/>
@@ -75,9 +75,11 @@ return instance;}}</p>
         <link href="https://month-four.github.io/post/hello-world/">
         </link>
         <updated>2022-05-11T02:03:07.000Z</updated>
-        <summary type="html"><![CDATA[<p>🤡ok👏123⛲️🏕![]</p>
+        <summary type="html"><![CDATA[<iframe  class="music" frameborder="no" src="http://c.migu.cn/0069bE?ifrom=0383dbbf2d62a8a977cad33ea9031359&type=1&id=89680147&auto=1&height=150"></iframe>
 ]]></summary>
-        <content type="html"><![CDATA[<p>🤡ok👏123⛲️🏕![]</p>
+        <content type="html"><![CDATA[<iframe  class="music" frameborder="no" src="http://c.migu.cn/0069bE?ifrom=0383dbbf2d62a8a977cad33ea9031359&type=1&id=89680147&auto=1&height=150"></iframe>
+<!-- more -->
+<p>🤡ok👏123⛲️🏕![]</p>
 <!-- more -->
 <p>刹车阀</p>
 <!-- more -->
