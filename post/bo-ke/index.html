@@ -259,7 +259,7 @@ public static Test getInstance(..." />
                         src='https://month-four.github.io/media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         </div>
         <div class="avatar-border">
-            <img src="https://month-four.github.io/images/avatar.png?v=1652344804183" class="avatar">
+            <img src="https://month-four.github.io/images/avatar.png?v=1652345863421" class="avatar">
         </div>
         <div class="sitename">Enjoy Life</div>
         <span class="description" data-text='["放飞"]'>&nbsp;</span>
@@ -460,6 +460,13 @@ public static Test getInstance(..." />
     
     <script>let postsnum = 0;</script>
     <div id="side-posttitle" style="display: none;">
+    
+    
+    二个人
+    <script>
+        postsnum += 1
+    </script>
+    
     
     
     测试
@@ -1053,7 +1060,7 @@ return instance;}}<br>
 <strong>2.对getInstance方法进行加锁，防止多个线程同时进入，解决了线程的安全问题，但是效率太低</strong>⛷⛷⛷⛷<br>
 public Class Test(){<br>
 private static Test instance;<br>
-public Test(){}<br>
+public Test(){<br>
 synchronized public static Test getInstance(){<br>
 If(instance == null){<br>
 Instance = new Test();}<br>
@@ -1078,7 +1085,8 @@ If(instance = null){<br>
 Synchronized(Test.class){<br>
 if(instance = null){<br>
 Instance = new Test();}}}<br>
-return instance;}}</p>
+return instance;}}<br>
+<img src="https://month-four.github.io/post-images/1652345862169.jpg" alt="" loading="lazy"></p>
 
             </div>
             <hr style="width: 80%;">
