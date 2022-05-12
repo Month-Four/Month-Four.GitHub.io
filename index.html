@@ -93,7 +93,7 @@
                         src='https://month-four.github.io/media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         </div>
         <div class="avatar-border">
-            <img src="https://month-four.github.io/images/avatar.png?v=1652326473927" class="avatar">
+            <img src="https://month-four.github.io/images/avatar.png?v=1652326989236" class="avatar">
         </div>
         <div class="sitename">Enjoy Life</div>
         <span class="description" data-text='["放飞"]'>&nbsp;</span>
@@ -294,6 +294,13 @@
     
     <script>let postsnum = 0;</script>
     <div id="side-posttitle" style="display: none;">
+    
+    
+    测试
+    <script>
+        postsnum += 1
+    </script>
+    
     
     
     博客
@@ -960,7 +967,7 @@ menulist.eq(i).show();
                         <!-- 移动端欢迎页 -->
 <div class="welcome">
     <div class="avatar-border">
-        <img src="https://month-four.github.io/images/avatar.png?v=1652326473927" class="avatar">
+        <img src="https://month-four.github.io/images/avatar.png?v=1652326989236" class="avatar">
     </div>
     <span class="mobiledescribtion"></span>
 </div>
@@ -1053,6 +1060,15 @@ menulist.eq(i).show();
     <div style="display: none;">
         
             
+                <span name="plfeature">https://month-four.github.io/post-images/ce-shi.jpg</span>
+                
+            <span name="pltitle">测试</span>
+            <span name="pllink">https://month-four.github.io/post/ce-shi/</span>
+            <span name="pldate">2022-05-12</span>
+            <span name="plstats">1 min read</span>
+            
+        
+            
                 <span name="plfeature">https://month-four.github.io/post-images/bo-ke.jpg</span>
                 
             <span name="pltitle">博客</span>
@@ -1106,6 +1122,8 @@ menulist.eq(i).show();
                     <div :class="post.elegcontainer">
                         <img :src="post.feature" alt="" :class="post.imgclass">
                         
+                        <img class="eleg-swordsmen-left" src="https://month-four.github.io/media/images/swordsmenleft.webp" alt="">
+                        
                         <div class="eleg-info">
                             <span class="eleg-title">{{post.title}}</span>
                             <div style="margin-top:15px;">
@@ -1139,6 +1157,8 @@ menulist.eq(i).show();
                                 <a :href="post.link" class="eleg-btn" data-pjax>阅读全文</a>
                             </div>
                         </div>
+                        
+                        <img class="eleg-swordsmen" src="https://month-four.github.io/media/images/swordsmen.webp" alt="">
                         
                         <img :src="post.feature" alt="" :class="post.imgclass">
                     </div>
