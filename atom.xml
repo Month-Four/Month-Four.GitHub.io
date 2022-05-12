@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://month-four.github.io</id>
     <title>Enjoy Life</title>
-    <updated>2022-05-11T09:39:12.851Z</updated>
+    <updated>2022-05-12T02:38:22.157Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://month-four.github.io"/>
     <link rel="self" href="https://month-four.github.io/atom.xml"/>
@@ -16,11 +16,25 @@
         <link href="https://month-four.github.io/post/hello-world/">
         </link>
         <updated>2022-05-11T02:03:07.000Z</updated>
-        <summary type="html"><![CDATA[<p>ok👏123⛲️🏕![]</p>
+        <summary type="html"><![CDATA[<p>🤡ok👏123⛲️🏕![]</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>ok👏123⛲️🏕![]</p>
+        <content type="html"><![CDATA[<p>🤡ok👏123⛲️🏕![]</p>
 <!-- more -->
+<p>刹车阀</p>
 <!-- more -->
+<p><strong>1.生成uuid</strong><br>
+String id = UUID.randomUUID().toString().replaceAll(“-”,””);<br>
+//如果嫌序列号很长，可以用哈希码表示<br>
+int hashCode = Math.abs(id.hashCode());</p>
+<!-- more -->
+<p><strong>2.Md5加密，单向加密 没有解密</strong><br>
+byte[] bytes = null;<br>
+try {<br>
+bytes = MessageDigest.getInstance(&quot;md5&quot;).digest(s.getBytes());<br>
+} catch (NoSuchAlgorithmException e) {<br>
+e.printStackTrace();<br>
+}<br>
+String s1 = new BigInteger(1, bytes).toString(16);</p>
 ]]></content>
     </entry>
     <entry>
