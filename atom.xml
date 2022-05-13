@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://month-four.github.io</id>
     <title>Enjoy Life</title>
-    <updated>2022-05-13T02:48:11.640Z</updated>
+    <updated>2022-05-13T06:44:59.831Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://month-four.github.io"/>
     <link rel="self" href="https://month-four.github.io/atom.xml"/>
@@ -11,21 +11,55 @@
     <icon>https://month-four.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Enjoy Life</rights>
     <entry>
-        <title type="html"><![CDATA[测试]]></title>
+        <title type="html"><![CDATA[视频展示（测试）]]></title>
+        <id>https://month-four.github.io/post/shi-pin-ce-shi/</id>
+        <link href="https://month-four.github.io/post/shi-pin-ce-shi/">
+        </link>
+        <updated>2022-05-13T06:24:23.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<!-- <div class="tvcontainer"><iframe class="tv"  src="http://m.v.qq.com/play.html?cid=mcv8hkc8zk8lnov&vid=c0042t62ceb&url_from=share&second_share=0&share_from=copy&pgid=page_detail&mod_id=mod_toolbar_new" frameborder="no" scrolling="no"></iframe></div>  -->
+<!-- more -->
+<p><strong>完美世界----双石大战</strong></p>
+<div class="tvcontainer"><iframe class="tv"  src="http://m.v.qq.com/play.html?cid=mcv8hkc8zk8lnov&vid=e0042s6e9lf&url_from=share&second_share=0&share_from=copy&pgid=page_detail&mod_id=mod_toolbar_new" frameborder="no" scrolling="no"></iframe></div>
+<!-- more -->
+<!-- more -->
+<p><strong>吞噬星空----成就战神</strong></p>
+<div class="tvcontainer"><iframe class="tv"  src="http://m.v.qq.com/play.html?cid=324olz7ilvo2j5f&vid=t0042zfwfb6&url_from=share&second_share=0&share_from=copy&pgid=page_detail&mod_id=mod_toolbar_new&auto=0" frameborder="no" scrolling="no"></iframe></div>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[音乐展示（测试）]]></title>
         <id>https://month-four.github.io/post/ce-shi/</id>
         <link href="https://month-four.github.io/post/ce-shi/">
         </link>
         <updated>2022-05-12T03:42:11.000Z</updated>
-        <summary type="html"><![CDATA[<p>测试翁</p>
+        <summary type="html"><![CDATA[<p><strong>咪咕音乐配置（直接复制链接）</strong></p>
 <iframe  class="music" frameborder="no" src="http://c.migu.cn/0067Ix?ifrom=0383dbbf2d62a8a977cad33ea9031359&height=10000"></iframe>
+<!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=630 height=150 src="//music.163.com/outchain/player?type=2&id=1832684671&auto=1&height=100"></iframe> -->
 ]]></summary>
-        <content type="html"><![CDATA[<p>测试翁</p>
+        <content type="html"><![CDATA[<p><strong>咪咕音乐配置（直接复制链接）</strong></p>
 <iframe  class="music" frameborder="no" src="http://c.migu.cn/0067Ix?ifrom=0383dbbf2d62a8a977cad33ea9031359&height=10000"></iframe>
+<!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=630 height=150 src="//music.163.com/outchain/player?type=2&id=1832684671&auto=1&height=100"></iframe> -->
 <!-- more -->
-<a  href ="https://www.baidu.com/?tn=68018901_28_oem_dg&ch=2">百度</a>
-<iframe  class="music" frameborder="no" src="https://y.music.163.com/m/song?id=28387594&uct=SKhkAmaT4TDmayoLNpmSbA%3D%3D&app_version=8.7.46&sc=wmv"></iframe>
- 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=28387594&auto=1&height=66"></iframe>]]></content>
+**网站链接（例如百度）**
+<a  href ="https://www.baidu.com/?tn=68018901_28_oem_dg&ch=2">百度</a> 
+<!-- more -->
+<p><strong>网易云音乐配置</strong><br>
+首先复制网易云链接，然后预览生成iframe格式的HTML，即可。（src里面的链接不要有空格）<br>
+1.固定长宽</p>
+<iframe  class="music" frameborder="no" width=530  height=86 src="//music.163.com/outchain/player?type=2&id=28387594&auto=0&height=66"></iframe>
+<!-- more -->
+<p>2.简略展示（可调节宽高）</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=530 height=86 src="//music.163.com/outchain/player?type=2&id=1422883398&auto=0&height=66"></iframe>
+<!-- more -->
+<p>3.详细展示（可调节宽高）</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=630 height=150 src="//music.163.com/outchain/player?type=2&id=1832684671&auto=0&height=100"></iframe>
+<!-- more -->
+<!-- 测试模板 -->
+ <!-- <iframe  class="music" frameborder="no" src="https://www.9ku.com/play/856441.MP3"></iframe> -->
+<!-- http://tsmusic24.tc.qq.com/ -->
+<!-- <div class="tvcontainer"><iframe class="tv"  src="https://b23.tv/BZ0Tirn"frameborder="no" scrolling="no"></iframe></div>  -->
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[博客]]></title>
@@ -33,9 +67,9 @@
         <link href="https://month-four.github.io/post/bo-ke/">
         </link>
         <updated>2022-05-12T03:32:06.000Z</updated>
-        <summary type="html"><![CDATA[<iframe  class="music" frameborder="no" src="http://c.migu.cn/0067Ix?ifrom=0383dbbf2d62a8a977cad33ea9031359&type=1&id=89680147&auto=1&height=150"></iframe>
+        <summary type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=930 height=150 src="//music.163.com/outchain/player?type=2&id=28387594&auto=1&height=100"></iframe>
 ]]></summary>
-        <content type="html"><![CDATA[<iframe  class="music" frameborder="no" src="http://c.migu.cn/0067Ix?ifrom=0383dbbf2d62a8a977cad33ea9031359&type=1&id=89680147&auto=1&height=150"></iframe>
+        <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=930 height=150 src="//music.163.com/outchain/player?type=2&id=28387594&auto=1&height=100"></iframe>
 <!-- more -->
 <p>**1.普通单例模式（懒汉式）**🏈<br>
 public Class Test(){<br>
@@ -104,38 +138,6 @@ bytes = MessageDigest.getInstance(&quot;md5&quot;).digest(s.getBytes());<br>
 e.printStackTrace();<br>
 }<br>
 String s1 = new BigInteger(1, bytes).toString(16);</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://month-four.github.io/post/hello-gridea/</id>
-        <link href="https://month-four.github.io/post/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
 ]]></content>
     </entry>
 </feed>
