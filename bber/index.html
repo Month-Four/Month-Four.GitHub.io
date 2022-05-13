@@ -120,7 +120,7 @@ $(document).ready(function(){
                         src='https://month-four.github.io/media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         </div>
         <div class="avatar-border">
-            <img src="https://month-four.github.io/images/avatar.png?v=1652435738242" class="avatar">
+            <img src="https://month-four.github.io/images/avatar.png?v=1652438674061" class="avatar">
         </div>
         <div class="sitename">Enjoy Life</div>
         <span class="description" data-text='["Learning  makes me  happy"]'>&nbsp;</span>
@@ -276,6 +276,10 @@ $(document).ready(function(){
                 href="https://github.com/850552586/gridea-theme-fog">Fog</a>
             <div>
                 
+                <div id="sitegotimeDate">载入天数...</div>
+                <div id="sitegotimes">载入时分秒...</div>
+                <div id="cussitetime" style="display:none">05/13/2022</div>
+                
             </div>
             <div>
                 
@@ -288,6 +292,38 @@ $(document).ready(function(){
 
     </div>
 </body>
+
+<script>
+    //----------------------站点运行时间
+    var now = new Date();
+
+    function createtime() {
+        var sitegotime = document.getElementById("cussitetime").innerHTML + " 00:00:00";
+        var grt = new Date(sitegotime); //此处修改你的建站时间或者网站上线时间 
+        now.setTime(now.getTime() + 250);
+        days = (now - grt) / 1000 / 60 / 60 / 24;
+        dnum = Math.floor(days);
+        hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum);
+        hnum = Math.floor(hours);
+        if (String(hnum).length == 1) {
+            hnum = "0" + hnum;
+        }
+        minutes = (now - grt) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes);
+        if (String(mnum).length == 1) {
+            mnum = "0" + mnum;
+        }
+        seconds = (now - grt) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds);
+        if (String(snum).length == 1) {
+            snum = "0" + snum;
+        }
+        document.getElementById("sitegotimeDate").innerHTML = "本站已安全运行 " + dnum + " 天 ";
+        document.getElementById("sitegotimes").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+    }
+
+    let intervalId = setInterval("createtime()", 250);
+</script>
 
     </div>
 
@@ -346,7 +382,7 @@ $(document).ready(function(){
 <!------ 根据自定义配置声明变量👇 --------------------->
     
     <script>
-        var postnumChoice = false
+        var postnumChoice = true
     </script>
     
     
@@ -1094,11 +1130,11 @@ menulist.eq(i).show();
     lnum = parseInt(limitstr)
     ispeakBber.init({
             el: '#speak', // 容器选择器
-            name: '', // 显示的昵称
+            name: 'HCL--BiBi', // 显示的昵称
             envId: '', // 环境id
             region: 'ap-shanghai', // 腾讯云地址，默认为上海
             limit: lnum, // 每次加载的条数，默认为5
-            avatar: '',
+            avatar: 'https://img1.baidu.com/it/u=3735903584,3123839418&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=PNG?w=500&amp;h=500',
             fromColor: 'rgb(245, 150, 170)', // 下方标签背景颜色 默认 rgb(245, 150, 170)
             loadingImg: 'https://7.dusays.com/2021/03/04/d2d5e983e2961.gif', // 自定义loading的图片，示例值为默认值
             dbName: 'talks' // 数据的名称，默认talks，避免有人的命名不是这个，所以加入此配置字段。
@@ -1172,10 +1208,10 @@ menulist.eq(i).show();
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 <script>
     function aplayerInit() {
-        var aplayerid = "";
-        var aplayerserver = "kugou";
+        var aplayerid = "28285910";
+        var aplayerserver = "netease";
         var aplayerorder = "default";
-        var aplayerautoplay = "true";
+        var aplayerautoplay = "false";
         var aplayer = $("#myaplayer");
         aplayer.attr("server", aplayerserver);
         aplayer.attr("id", aplayerid);
