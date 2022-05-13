@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://month-four.github.io</id>
     <title>Enjoy Life</title>
-    <updated>2022-05-13T02:12:53.730Z</updated>
+    <updated>2022-05-13T02:48:11.640Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://month-four.github.io"/>
     <link rel="self" href="https://month-four.github.io/atom.xml"/>
@@ -17,12 +17,15 @@
         </link>
         <updated>2022-05-12T03:42:11.000Z</updated>
         <summary type="html"><![CDATA[<p>测试翁</p>
-<iframe  class="music" frameborder="no" src="http://c.migu.cn/0067Ix?ifrom=0383dbbf2d62a8a977cad33ea9031359&type=1&id=89680147&auto=1&height=150"></iframe>
+<iframe  class="music" frameborder="no" src="http://c.migu.cn/0067Ix?ifrom=0383dbbf2d62a8a977cad33ea9031359&height=10000"></iframe>
 ]]></summary>
         <content type="html"><![CDATA[<p>测试翁</p>
-<iframe  class="music" frameborder="no" src="http://c.migu.cn/0067Ix?ifrom=0383dbbf2d62a8a977cad33ea9031359&type=1&id=89680147&auto=1&height=150"></iframe>
+<iframe  class="music" frameborder="no" src="http://c.migu.cn/0067Ix?ifrom=0383dbbf2d62a8a977cad33ea9031359&height=10000"></iframe>
 <!-- more -->
-<a  href ="https://www.baidu.com/?tn=68018901_28_oem_dg&ch=2">百度</a>]]></content>
+<a  href ="https://www.baidu.com/?tn=68018901_28_oem_dg&ch=2">百度</a>
+<iframe  class="music" frameborder="no" src="https://y.music.163.com/m/song?id=28387594&uct=SKhkAmaT4TDmayoLNpmSbA%3D%3D&app_version=8.7.46&sc=wmv"></iframe>
+ 
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=28387594&auto=1&height=66"></iframe>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[博客]]></title>
