@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://month-four.github.io</id>
     <title>Enjoy Life</title>
-    <updated>2022-05-13T06:44:59.831Z</updated>
+    <updated>2022-05-13T09:05:16.969Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://month-four.github.io"/>
     <link rel="self" href="https://month-four.github.io/atom.xml"/>
-    <subtitle>放飞</subtitle>
+    <subtitle>Learning  makes me  happy</subtitle>
     <logo>https://month-four.github.io/images/avatar.png</logo>
     <icon>https://month-four.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Enjoy Life</rights>
     <entry>
-        <title type="html"><![CDATA[视频展示（测试）]]></title>
+        <title type="html"><![CDATA[视频展示（测试--发布就加载不出来🚀🚀🚀🚀）]]></title>
         <id>https://month-four.github.io/post/shi-pin-ce-shi/</id>
         <link href="https://month-four.github.io/post/shi-pin-ce-shi/">
         </link>
@@ -33,18 +33,19 @@
         <link href="https://month-four.github.io/post/ce-shi/">
         </link>
         <updated>2022-05-12T03:42:11.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>咪咕音乐配置（直接复制链接）</strong></p>
+        <summary type="html"><![CDATA[<p><strong>1.咪咕音乐配置（直接复制链接到模板中，暂不能只展示播放器，需滑动咪咕音乐窗口）</strong></p>
 <iframe  class="music" frameborder="no" src="http://c.migu.cn/0067Ix?ifrom=0383dbbf2d62a8a977cad33ea9031359&height=10000"></iframe>
 <!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=630 height=150 src="//music.163.com/outchain/player?type=2&id=1832684671&auto=1&height=100"></iframe> -->
 ]]></summary>
-        <content type="html"><![CDATA[<p><strong>咪咕音乐配置（直接复制链接）</strong></p>
+        <content type="html"><![CDATA[<p><strong>1.咪咕音乐配置（直接复制链接到模板中，暂不能只展示播放器，需滑动咪咕音乐窗口）</strong></p>
 <iframe  class="music" frameborder="no" src="http://c.migu.cn/0067Ix?ifrom=0383dbbf2d62a8a977cad33ea9031359&height=10000"></iframe>
 <!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=630 height=150 src="//music.163.com/outchain/player?type=2&id=1832684671&auto=1&height=100"></iframe> -->
 <!-- more -->
-**网站链接（例如百度）**
-<a  href ="https://www.baidu.com/?tn=68018901_28_oem_dg&ch=2">百度</a> 
+**2.网站链接 (html格式)**
 <!-- more -->
-<p><strong>网易云音乐配置</strong><br>
+<p><a  href ="https://www.baidu.com/?tn=68018901_28_oem_dg&ch=2">百度</a></p>
+<!-- more -->
+<p><strong>3.网易云音乐配置</strong><br>
 首先复制网易云链接，然后预览生成iframe格式的HTML，即可。（src里面的链接不要有空格）<br>
 1.固定长宽</p>
 <iframe  class="music" frameborder="no" width=530  height=86 src="//music.163.com/outchain/player?type=2&id=28387594&auto=0&height=66"></iframe>
