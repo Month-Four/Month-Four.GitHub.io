@@ -88,7 +88,7 @@
                         src='https://month-four.github.io/media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         </div>
         <div class="avatar-border">
-            <img src="https://month-four.github.io/images/avatar.png?v=1652433431528" class="avatar">
+            <img src="https://month-four.github.io/images/avatar.png?v=1652435488079" class="avatar">
         </div>
         <div class="sitename">Enjoy Life</div>
         <span class="description" data-text='["Learning  makes me  happy"]'>&nbsp;</span>
@@ -603,13 +603,13 @@
                 shareInit();
             if (donateChoice)
                 donateInit();
-            if ("default" == "default"&&!commentsHide) {
+            if ("valine" == "default"&&!commentsHide) {
                 $("#comment").hide()
                 commentsHide = true
             }
             lazyload();
             codeinit();
-            if ("default" == "twikoo") {
+            if ("valine" == "twikoo") {
                 //twikoo头像更换
                 setTimeout(replaceAvatar, 3000);
                 setTimeout(replaceAvatar, 8000); //部分博主站点速度加载过慢，再添加一个延迟
