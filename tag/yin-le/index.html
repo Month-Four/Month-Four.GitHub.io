@@ -88,7 +88,7 @@
                         src='https://month-four.github.io/media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         </div>
         <div class="avatar-border">
-            <img src="https://month-four.github.io/images/avatar.png?v=1652438674061" class="avatar">
+            <img src="https://month-four.github.io/images/avatar.png?v=1652439046617" class="avatar">
         </div>
         <div class="sitename">Enjoy Life</div>
         <span class="description" data-text='["Learning  makes me  happy"]'>&nbsp;</span>
@@ -175,15 +175,6 @@
             <a data-pjax href="https://month-four.github.io/post/shi-pin-ce-shi" class="menubutton" style="margin-right: 15px;">
                 <i><img class="icon menuicon" src="" alt="视频"></i>&nbsp;<span
                     data-text="视频">视频</span>
-            </a>
-        </div>
-        
-        
-        
-        <div class="mchocie description">
-            <a data-pjax href="https://image.baidu.com/search/index?tn=baiduimage&amp;ct=201326592&amp;lm=-1&amp;cl=2&amp;ie=gb18030&amp;word=%CD%BC%C6%AC&amp;fr=ala&amp;ala=1&amp;alatpl=normal&amp;pos=0&amp;dyTabStr=MCwzLDYsMSw0LDIsNSw3LDgsOQ%3D%3D" class="menubutton" style="margin-right: 15px;">
-                <i><img class="icon menuicon" src="" alt="图集"></i>&nbsp;<span
-                    data-text="图集">图集</span>
             </a>
         </div>
         
@@ -448,7 +439,7 @@
     get();
 
     function get() {
-        var t = JSON.parse('[{"author":"Music","img":"https://img2.baidu.com/it/u=3010196521,4203110623&fm=253&fmt=auto&app=138&f=JPEG?w=690&h=431","text":"音乐菜单上线","time":"2022-05-13"}]');
+        var t = JSON.parse('[{"author":"Music","img":"https://img2.baidu.com/it/u=3010196521,4203110623&fm=253&fmt=auto&app=138&f=JPEG?w=690&h=431","text":"音乐菜单上线","time":"2022-05-13"},{"author":"valine评论","img":"https://img1.baidu.com/it/u=4042234731,838733147&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=433","text":"评论开启了，畅所欲言。","time":"2022-05-13"}]');
         talkindex = t.length - 1;
         for (var i = 0; i <= t.length - 1; i++) {
             var d = {};
@@ -1006,14 +997,6 @@ menulist.eq(i).show();
         
         
         <li>
-          <a data-pjax href="https://image.baidu.com/search/index?tn=baiduimage&amp;ct=201326592&amp;lm=-1&amp;cl=2&amp;ie=gb18030&amp;word=%CD%BC%C6%AC&amp;fr=ala&amp;ala=1&amp;alatpl=normal&amp;pos=0&amp;dyTabStr=MCwzLDYsMSw0LDIsNSw3LDgsOQ%3D%3D" style="color:white">
-            图集
-          </a>
-        </li>
-        
-        
-        
-        <li>
           <a data-pjax href="/post/about" style="color:white">
             关于
           </a>
@@ -1296,7 +1279,7 @@ menulist.eq(i).show();
     function aplayerInit() {
         var aplayerid = "28285910";
         var aplayerserver = "netease";
-        var aplayerorder = "default";
+        var aplayerorder = "random";
         var aplayerautoplay = "false";
         var aplayer = $("#myaplayer");
         aplayer.attr("server", aplayerserver);
